@@ -1,0 +1,170 @@
+.body{
+    background-color:  #CFDEFC ;
+    padding: 0px;
+    margin: 0px;
+}
+
+
+
+.navbar {
+    background-color: #FF3644 !important;
+    
+}
+
+.navi{
+    
+    display: flex!important;
+    justify-content: flex-end!important; 
+    font-size: 18px!important; 
+     /* flex-basis: auto!important;  */
+}  
+
+.info{
+    text-decoration: none;
+    color: #ffffff;
+    position: sticky;
+    font: normal normal normal 14px/1.4em montserrat,sans-serif;
+    font-size: 23px;
+}
+/* navigation end */
+.logo{
+    padding-top: 40px;
+    text-align: center;
+    font-size: 100px;
+}
+.introduction{
+    text-align: center;
+    color: #000E3B;
+   
+}
+.hello{
+    font-size: 22px;
+}
+.different-deo{
+    margin: 0px;
+    padding: 10px;
+    
+}
+.departements{
+    display: flex;
+    justify-content : center;
+    text-align: center;
+    margin:0px;
+    
+    padding: 50px ;
+   
+}
+.departement{
+    /* border: 1px solid;  */
+    border-radius: 10px;
+    background-color: #ffffff;
+    margin-left: 50px;
+    margin-right: 50px; 
+    /* margin: 40px;  */
+}
+.departement:hover{
+   
+    -webkit-box-shadow: 10px 6px 92px -40px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 6px 92px -40px rgba(0,0,0,0.75);
+box-shadow: 10px 6px 92px -40px rgba(0,0,0,0.75);
+}
+.img-departement{
+    width: 311px;
+    margin: 10px;
+    border-radius: 10px;
+    padding: 30px;
+    
+    
+    
+}
+.nom-departement{
+background-color: #FFE772;
+}
+.nom_dep{
+    color:#000E3B;
+    font-size : 20px;
+    height: 40px;
+    border-radius: 10px;
+    border-color:#000E3B ;
+    text-decoration: none;
+    
+}
+.pop-up{
+    /* visibility: hidden; */
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
+/* footer begin */
+
+.footer{
+    border-top: 1px solid #eef2f2;
+    font-size: 20px;
+    color:#ffffff ;
+    text-align: center;
+    padding: 16px 0;
+    margin: 0px;
+    background-color: #000E3B;
+  }
+  /* footer end */
+  /* ----------------------about---------------------------------------------------------------------- */
+.body1{
+    background-color: #CFDEFC ;
+    margin: 0px;
+    padding-bottom: 20px;
+}
+.img-ecole{
+    display: flex;
+    justify-content: center;
+    height: 250px;
+    /* width: ; */
+}
+.info-ecole1{
+   margin: 20px;
+   /* background-color:   #FFE772; */
+   
+}
+.info-ecole{
+    /* background-color:  #FFE772; */
+    margin:20px;
+}
+.apropos-histo-ecole{
+    color: #FF3644;
+    font-size: 27px;
+}
+.information-ecole{
+    color:  #000E3B;
+    font-size: 18px;
+    padding-bottom: 16px;
+    margin: 0px;
+
+}
+.footer1{
+    border-top: 1px solid #eef2f2;
+    font-size: 20px;
+    color: #000E3B;
+    text-align: center;
+    padding: 16px ;
+    margin: 0px;
+    background-color:#FFE772;
+  }
+  /* ---------------------------------------contact begin-------------------------------------------- */
+  .diff-contact{
+      display: flex;
+      flex-direction: column;
+  }
+  .infor{
+      margin: 0px;
+      padding: 40px;
+  }
+  h2{
+      color: #FF3644 ;
+  }
