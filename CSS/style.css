@@ -2,6 +2,10 @@
     background-color:  #CFDEFC ;
     padding: 0px;
     margin: 0px;
+    background-image: url("../background1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
 }
 
 
@@ -15,14 +19,7 @@
     font-size: 23px!important; 
 }
 
-/* .navi{
-    
-    display: flex!important;
-    justify-content: flex-end!important; 
-    font-size: 23px!important; 
-    ;
-     /* flex-basis: auto!important;  */
- /* }    */ 
+
  
 .info{
     text-decoration: none;
@@ -32,6 +29,9 @@
     font-size: 23px;
 }
 /* navigation end */
+.row{
+    justify-content: center;
+}
 .logo{
     padding-top: 40px;
     text-align: center;
@@ -40,12 +40,18 @@
 
 .introduction{
     text-align: center;
-    color: #000E3B;
-   
+    color: #ffffff;
+    padding-bottom: 16px;
 }
+
 .hello{
-    font-size: 22px;
+    font-size: 30px;
 }
+@media screen and (max-width: 608px) {
+    .hello{
+        font-size: 10px;
+    }
+  }
 .different-dep{
     margin: 40px;
     padding: 10px;
@@ -62,12 +68,10 @@
    
 }
 .departement{
-    /* border: 1px solid;  */
     border-radius: 10px;
     background-color: #ffffff;
     margin-left: 50px;
-    /* /* margin-right: 50px;  */
-    /* margin: 40px;  */
+   
 }
 .departement:hover{
    
@@ -101,23 +105,51 @@ text-align: center;
     border-radius: 10px;
     border-color:#000E3B ;
     text-decoration: none;
-    
 }
 .pop-up{
-    /* visibility: hidden; */
-    width: 50%;
+    display: none;
+    width: 18%;
+    /* position: absolute; */
+    /* top : 0;
+    left: 0; */
+    transform: translate( 0px , -655px );
+    transition: ease-in-out;
+    transition-duration: 2s;
 }
-/* .annee{
-    color:#000E3B ;
-    text-decoration: none;
-    font-size: 30px;
+.pop-up1{
+    display: none;
+    width: 18%;
+    /* position: absolute; */
+    /* top : 0;
+    left: 0; */
+    transform: translate(0px , -655px );
+    transition: ease-in-out;
+    transition-duration: 2s;
 }
-.sem{
- text-decoration: none;
- font-size: 25px;
- color: #FF3644;
+
+.pop-up2{
+    display: none;
+    width: 18%;
+    /* position: absolute; */
+    /* top : 0;
+    left: 0; */
+    transform: translate( 2200px, -655px );
+    transition: ease-in-out;
+    transition-duration: 2s;
 }
- */
+
+.pop-up3{
+    display: none;
+    width: 18%;
+    /* position: absolute; */
+    /* top : 0;
+    left: 0; */
+    transform: translate( 2200px , -655px );
+    transition: ease-in-out;
+    transition-duration: 2s;
+}
+
+
 
 
 
@@ -143,12 +175,16 @@ text-align: center;
     background-color: #CFDEFC ;
     margin: 0px;
     padding-bottom: 20px;
+    background-image: url("../background1.jpg");
+    background-attachment: fixed;
+    background-size: cover;
 }
 .img-ecole{
     display: flex;
     justify-content: center;
     height: 250px;
-    /* width: ; */
+    margin: 20px;
+    /* width: 320px; */
 }
 .info-ecole1{
    margin: 20px;
@@ -161,15 +197,20 @@ text-align: center;
 }
 .apropos-histo-ecole{
     color: #FF3644;
-    font-size: 27px;
+    font-size: 30px;
 }
 .information-ecole{
-    color:  #000E3B;
-    font-size: 18px;
+    color:  #ffffff;
+    font-size: 23px;
     padding-bottom: 16px;
     margin: 0px;
 
 }
+@media screen and (max-width: 700px) {
+    .information-ecole{
+        font-size: 13px;
+    }
+  }
 .footer1{
     border-top: 1px solid #eef2f2;
     font-size: 20px;
@@ -190,15 +231,24 @@ text-align: center;
   }
   h2{
       color: #FF3644 ;
+      font-size: 30px;
   }
-
   @media screen and (max-width: 608px) {
-    .hello{
+.diff-contacts{
         font-size: 10px;
+        color: #ffffff;
     }
   }
-
-
-.row{
-    justify-content: center;
+.contact-supcom{
+    color: #ffffff;
 }
+.contact{
+    color: #ffffff;
+    font-size: 25px;
+}
+.information-supcom{
+    color: #FFE772;
+    font-size: 45px;
+}
+ /* ---------------------------------------------------- */
+ 
